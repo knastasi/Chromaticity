@@ -120,9 +120,9 @@ script_execute(scr_move_state);
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>16.75,48.25</point>
-    <point>33,48.25</point>
+    <point>17.125,63.875</point>
+    <point>33,63.875</point>
     <point>33,75</point>
-    <point>16.75,75</point>
+    <point>17.125,75</point>
   </PhysicsShapePoints>
 </object>

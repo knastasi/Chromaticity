@@ -15,6 +15,14 @@
     <sprites name="helper">
       <sprite>sprites\spr_wall</sprite>
     </sprites>
+    <sprites name="desert">
+      <sprite>sprites\spr_rock1</sprite>
+      <sprite>sprites\spr_rock2</sprite>
+      <sprite>sprites\spr_rock3</sprite>
+      <sprite>sprites\spr_sand</sprite>
+      <sprite>sprites\spr_cacti1</sprite>
+      <sprite>sprites\spr_cacti2</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -29,10 +37,18 @@
       <object>objects\obj_view</object>
       <object>objects\obj_parentcollisons</object>
     </objects>
+    <objects name="desert">
+      <object>objects\obj_rock1</object>
+      <object>objects\obj_rock2</object>
+      <object>objects\obj_rock3</object>
+      <object>objects\obj_sand</object>
+      <object>objects\obj_cacti1</object>
+      <object>objects\obj_cacti2</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_city</room>
     <room>rooms\rm_desert</room>
+    <room>rooms\rm_city</room>
     <room>rooms\rm_pond</room>
   </rooms>
   <help>
