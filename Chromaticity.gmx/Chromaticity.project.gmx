@@ -43,9 +43,7 @@
       <sprite>sprites\spr_tile3</sprite>
       <sprite>sprites\spr_fountain</sprite>
     </sprites>
-    <sprites name="life forms">
-      <sprite>sprites\spr_seia</sprite>
-    </sprites>
+    <sprite>sprites\spr_seia</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
