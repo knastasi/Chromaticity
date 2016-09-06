@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_tune</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="player">
       <sprite>sprites\spr_player_down</sprite>
@@ -45,12 +47,20 @@
     <script>scripts\scr_move_state.gml</script>
     <script>scripts\scr_get_input.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\ft_titlefont</font>
+    <font>fonts\ft_small</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="helper">
       <object>objects\obj_wall</object>
       <object>objects\obj_view</object>
       <object>objects\obj_parentcollisons</object>
+      <object>objects\obj_tune</object>
+      <object>objects\obj_titleexit</object>
+      <object>objects\obj_restart</object>
+      <object>objects\obj_exit</object>
     </objects>
     <objects name="desert">
       <object>objects\obj_rock1</object>
@@ -79,13 +89,20 @@
       <object>objects\obj_fountain</object>
       <object>objects\obj_entercity</object>
     </objects>
+    <objects name="title and credits">
+      <object>objects\obj_gametitle</object>
+      <object>objects\obj_instructions</object>
+      <object>objects\obj_roomgotocredits</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_title</room>
     <room>rooms\rm_desert</room>
     <room>rooms\rm_desert2</room>
     <room>rooms\rm_forest</room>
     <room>rooms\rm_forest2</room>
     <room>rooms\rm_city</room>
+    <room>rooms\rm_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

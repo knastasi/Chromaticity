@@ -97,6 +97,7 @@
     <instance objName="obj_cacti2" x="857" y="437" name="inst_9F2E7682" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1097" y="-323" name="inst_B4A15A45" locked="0" code="" scaleX="19.6129035949707" scaleY="38.1935501098633" colour="4294967295" rotation="0"/>
     <instance objName="obj_enterforest" x="1074" y="519" name="inst_7AA745FD" locked="0" code="" scaleX="3.9375" scaleY="5.55999994277954" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="261" y="273" name="inst_C636F305" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
