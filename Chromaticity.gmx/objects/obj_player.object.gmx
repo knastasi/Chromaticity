@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Set fixed rotation
 phy_fixed_rotation = true;
-spd = 7;
+spd = 3;
 hspd = 0;
 vspd = 0;
 len = 0;
