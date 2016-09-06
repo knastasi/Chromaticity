@@ -17,6 +17,8 @@
     <sprites name="helper">
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_empty</sprite>
+      <sprite>sprites\spr_eye</sprite>
+      <sprite>sprites\spr_credits</sprite>
     </sprites>
     <sprites name="desert">
       <sprite>sprites\spr_rock1</sprite>
@@ -93,6 +95,8 @@
       <object>objects\obj_gametitle</object>
       <object>objects\obj_instructions</object>
       <object>objects\obj_roomgotocredits</object>
+      <object>objects\obj_credits</object>
+      <object>objects\obj_eye</object>
     </objects>
   </objects>
   <rooms name="rooms">
