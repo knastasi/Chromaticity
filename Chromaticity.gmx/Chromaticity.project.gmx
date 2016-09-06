@@ -43,7 +43,9 @@
       <sprite>sprites\spr_tile3</sprite>
       <sprite>sprites\spr_fountain</sprite>
     </sprites>
-    <sprite>sprites\spr_seia</sprite>
+    <sprites name="life forms">
+      <sprite>sprites\spr_seia</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -107,12 +109,12 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_city</room>
     <room>rooms\rm_title</room>
     <room>rooms\rm_desert</room>
     <room>rooms\rm_desert2</room>
     <room>rooms\rm_forest</room>
     <room>rooms\rm_forest2</room>
+    <room>rooms\rm_city</room>
     <room>rooms\rm_credits</room>
   </rooms>
   <help>
