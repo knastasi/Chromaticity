@@ -98,8 +98,7 @@
     </objects>
     <objects name="title and credits">
       <object>objects\obj_gametitle</object>
-      <object>objects\obj_title</object>
-      <object>objects\obj_controls</object>
+      <object>objects\obj_instructions</object>
       <object>objects\obj_roomgotocredits</object>
       <object>objects\obj_credits</object>
       <object>objects\obj_titleexit</object>
@@ -108,12 +107,12 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_city</room>
     <room>rooms\rm_title</room>
     <room>rooms\rm_desert</room>
     <room>rooms\rm_desert2</room>
     <room>rooms\rm_forest</room>
     <room>rooms\rm_forest2</room>
-    <room>rooms\rm_city</room>
     <room>rooms\rm_credits</room>
   </rooms>
   <help>

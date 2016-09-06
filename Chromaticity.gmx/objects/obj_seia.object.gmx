@@ -30,10 +30,10 @@
 dialog = noone;
 dialog_page = 0;
 xoffset = -68;
-yoffset = -98;
-text[0] = "Can't you see the color of this building?";
-text[1] = "Haha, wait you can't.";
-text[2] = "Scram, kid.";
+yoffset = -92;
+text[0] = "Hello heres a really long line of words.";
+text[1] = "How about some more.";
+text[2] = "But wait, that's not all.";
 
 </string>
           </argument>

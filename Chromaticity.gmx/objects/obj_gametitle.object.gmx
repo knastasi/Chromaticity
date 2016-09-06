@@ -48,10 +48,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Chromaticity
+            <string>/// Chromaticity
 draw_set_colour(c_white);
 draw_set_font(ft_titlefont);
-draw_text(room_width / 2 , room_height / 4, "chromaticity");
+draw_text(room_width / 2 , room_height / 4, "Chromaticity");
 draw_set_halign(fa_center);
 </string>
           </argument>

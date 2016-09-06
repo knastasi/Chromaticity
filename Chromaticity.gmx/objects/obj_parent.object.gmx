@@ -25,12 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Press x on speaker
+            <string>/// Press space on speaker
 
 scr_get_input();
 
 
-if (x_key) {
+if (space_key) {
     with (other) {
         if (!instance_exists(dialog)) {
             dialog = instance_create(x+xoffset, y+yoffset, obj_dialog);

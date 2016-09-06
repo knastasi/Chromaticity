@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///press space to explore
+            <string>/// Instructions
 draw_set_colour(c_white);
 draw_set_font(ft_small);
-draw_text(room_width / 2 , room_height * .75, "press space to explore");
+draw_text(room_width / 2 , room_height * .5, "press space to explore and escape to exit");
 draw_set_halign(fa_center);
 </string>
           </argument>
