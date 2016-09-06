@@ -19,6 +19,7 @@
       <sprite>sprites\spr_empty</sprite>
       <sprite>sprites\spr_eye</sprite>
       <sprite>sprites\spr_credits</sprite>
+      <sprite>sprites\spr_dialog</sprite>
     </sprites>
     <sprites name="desert">
       <sprite>sprites\spr_rock1</sprite>
@@ -42,6 +43,7 @@
       <sprite>sprites\spr_tile3</sprite>
       <sprite>sprites\spr_fountain</sprite>
     </sprites>
+    <sprite>sprites\spr_seia</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -52,17 +54,17 @@
   <fonts name="fonts">
     <font>fonts\ft_titlefont</font>
     <font>fonts\ft_small</font>
+    <font>fonts\ft_dialog</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <objects name="helper">
       <object>objects\obj_wall</object>
       <object>objects\obj_view</object>
-      <object>objects\obj_parentcollisons</object>
+      <object>objects\obj_parent</object>
       <object>objects\obj_tune</object>
-      <object>objects\obj_titleexit</object>
-      <object>objects\obj_restart</object>
       <object>objects\obj_exit</object>
+      <object>objects\obj_dialog</object>
     </objects>
     <objects name="desert">
       <object>objects\obj_rock1</object>
@@ -91,21 +93,26 @@
       <object>objects\obj_fountain</object>
       <object>objects\obj_entercity</object>
     </objects>
+    <objects name="life forms">
+      <object>objects\obj_seia</object>
+    </objects>
     <objects name="title and credits">
       <object>objects\obj_gametitle</object>
       <object>objects\obj_instructions</object>
       <object>objects\obj_roomgotocredits</object>
       <object>objects\obj_credits</object>
+      <object>objects\obj_titleexit</object>
+      <object>objects\obj_restart</object>
       <object>objects\obj_eye</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_city</room>
     <room>rooms\rm_title</room>
     <room>rooms\rm_desert</room>
     <room>rooms\rm_desert2</room>
     <room>rooms\rm_forest</room>
     <room>rooms\rm_forest2</room>
-    <room>rooms\rm_city</room>
     <room>rooms\rm_credits</room>
   </rooms>
   <help>
