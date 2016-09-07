@@ -44,6 +44,10 @@
       <sprite>sprites\spr_fountain</sprite>
     </sprites>
     <sprites name="life forms">
+      <sprite>sprites\spr_shiva</sprite>
+      <sprite>sprites\spr_peach</sprite>
+      <sprite>sprites\spr_olive</sprite>
+      <sprite>sprites\spr_indigo</sprite>
       <sprite>sprites\spr_seia</sprite>
     </sprites>
   </sprites>
@@ -96,6 +100,10 @@
       <object>objects\obj_entercity</object>
     </objects>
     <objects name="life forms">
+      <object>objects\obj_shiva</object>
+      <object>objects\obj_peach</object>
+      <object>objects\obj_indigo</object>
+      <object>objects\obj_olive</object>
       <object>objects\obj_seia</object>
     </objects>
     <objects name="title and credits">

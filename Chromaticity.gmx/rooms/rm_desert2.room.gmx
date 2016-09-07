@@ -51,8 +51,8 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player" x="959" y="508" name="inst_E43A7DA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_view" x="931" y="471" name="inst_E33A54EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="968" y="509" name="inst_E43A7DA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_view" x="886" y="481" name="inst_E33A54EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="-136" y="-476" name="inst_7F29AFEE" locked="0" code="" scaleX="34" scaleY="17.5483875274658" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="849" y="568" name="inst_7E037404" locked="0" code="" scaleX="19.6129035949707" scaleY="38.1935501098633" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="-515" y="-234" name="inst_F2B21531" locked="0" code="" scaleX="19.6129035949707" scaleY="38.1935501098633" colour="4294967295" rotation="0"/>
@@ -96,7 +96,9 @@
     <instance objName="obj_sand" x="286" y="606" name="inst_C97CE967" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1097" y="-323" name="inst_B4A15A45" locked="0" code="" scaleX="19.6129035949707" scaleY="38.1935501098633" colour="4294967295" rotation="0"/>
     <instance objName="obj_enterforest" x="1074" y="519" name="inst_7AA745FD" locked="0" code="" scaleX="3.9375" scaleY="5.55999994277954" colour="4294967295" rotation="0"/>
-    <instance objName="obj_exit" x="261" y="273" name="inst_C636F305" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_exit" x="219" y="336" name="inst_0884A242" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shiva" x="309" y="510" name="inst_3F3DC974" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_peach" x="533" y="238" name="inst_3BA7ED56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
