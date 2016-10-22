@@ -61,6 +61,7 @@
     <font>fonts\ft_titlefont</font>
     <font>fonts\ft_small</font>
     <font>fonts\ft_dialog</font>
+    <font>fonts\ft_fsdialog</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -69,7 +70,7 @@
       <object>objects\obj_view</object>
       <object>objects\obj_parent</object>
       <object>objects\obj_tune</object>
-      <object>objects\obj_exit</object>
+      <object>objects\obj_extra</object>
       <object>objects\obj_dialog</object>
     </objects>
     <objects name="desert">
